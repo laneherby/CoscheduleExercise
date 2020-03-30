@@ -1,0 +1,43 @@
+.ui-helper-hidden-accessible {
+  display: none !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 33%;
+}
+
+.middle {
+  width: 34%;
+  padding-left: 10%;
+}
+
+.right {
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.ui-autocomplete {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
